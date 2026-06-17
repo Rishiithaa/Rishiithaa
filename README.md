@@ -1,7 +1,10 @@
-# Hi, I'm Rishitha 👋
+<div align="center">
+  
+  # Hi, I'm Rishitha 👋
 
-# 💻Welcome to my Github Universe!
-
+##       💻Welcome to my Github Universe!
+ </div>
+ 
 **Data Analyst** — I turn messy operational data into decisions teams can act on. I work mostly in **SQL and Python**, with a focus on **healthcare and clinical analytics**.
 
 🎓 M.S. Data Science & Engineering, Florida Atlantic University · Delray Beach, FL

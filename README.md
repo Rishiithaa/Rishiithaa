@@ -21,9 +21,9 @@
 
 ### 🛠 What I work with
 
-**Analysis:** SQL (PostgreSQL, DuckDB) · Python (pandas, NumPy) · window functions · cohort & risk-tier analysis · CMS/HRRP healthcare metrics
+**Analysis:** SQL · Python · window functions · cohort & risk-tier analysis · Excel
 **Engineering:** reproducible data pipelines · automated test harnesses · CI/CD with GitHub Actions · Git
-**Visualization:** matplotlib · clear, decision-oriented reporting
+**Visualization:** matplotlib · clear, decision-oriented reporting · 
 
 ---
 

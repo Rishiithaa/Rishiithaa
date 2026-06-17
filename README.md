@@ -5,7 +5,7 @@
 ##       💻Welcome to my Github Universe!
  </div>
  
-**Data Analyst** — I turn messy operational data into decisions teams can act on. I work mostly in **SQL and Python**, with a focus on **healthcare and clinical analytics**.
+**Data Analyst** — I turn messy operational data into decisions teams can act on. I work mostly in **SQL and Python**, across **healthcare, retail, and people analytics**.
 
 🎓 M.S. Data Science & Engineering, Florida Atlantic University · Delray Beach, FL
 
@@ -21,23 +21,34 @@
 
 ---
 
-### 🏥 Featured project — [Hospital Readmission SQL Analytics](https://github.com/Rishiithaa/hospital-readmission-sql-analytics)
+## 📌 Featured projects
 
-15 advanced SQL queries that decompose a hospital's **30-day readmission rate** — the metric Medicare penalizes hospitals on — across diagnosis, age, payer, discharge destination, and timing.
+Every project below is reproducible end-to-end and (where applicable) **CI-verified** — built from seeded synthetic data, no real PHI/PII.
 
-- **4.9%** hospital-wide readmission rate, with **Respiratory Failure (9.1%)** and **COPD (8.9%)** running ~2× the average.
-- Counter-intuitive finding: most readmissions cluster in the **last third of the 30-day window**, not the first week — which changes when follow-up should happen.
-- Built on a realistic seeded clinical schema (~23K rows, no PHI), with **GitHub Actions CI** that rebuilds the database and validates every query on each push.
+### 🏥 [Hospital Readmission SQL Analytics](https://github.com/Rishiithaa/hospital-readmission-sql-analytics) · `SQL`
+15 advanced SQL queries decomposing a hospital's **30-day readmission rate** (the metric Medicare penalizes) across diagnosis, age, payer, and discharge.
+> **4.9%** overall rate; respiratory diagnoses run ~2× higher. Window functions, CTEs, correlated subqueries, gaps-and-islands — **CI rebuilds the DB and validates all 15 queries on every push.**
 
-> Window functions, CTEs, correlated subqueries, Top-N-per-group, Pareto, and gaps-and-islands — each mapped to a real clinical question, not an academic exercise.
+### 👥 [Employee Attrition Analysis](https://github.com/Rishiithaa/employee-attrition-analysis) · `Python` · `scikit-learn`
+A people-analytics study: who leaves, why, and what to do about it — descriptive driver analysis plus an interpretable **logistic-regression model**.
+> Overtime ~doubles attrition risk; model hits **ROC AUC ≈ 0.77**. Odds-ratio driver ranking mapped to concrete retention actions. CI executes the notebook end-to-end.
+
+### 🛍️ [Suncoast Retail Analytics](https://github.com/Rishiithaa/suncoast-retail-analytics) · `pandas` · `Power BI`
+End-to-end multi-region retail sales analytics with a portable **pandas ETL pipeline** (audit logging), an **Excel KPI workbook**, and **Power BI DAX** measures.
+> Demonstrates the full BI stack — from raw data ingestion to executive-ready dashboards.
+
+### 🛒 [E-Commerce Segmentation](https://github.com/Rishiithaa/ecommerce-segmentation) · `PostgreSQL` · `Tableau`
+**RFM customer segmentation** and cohort-retention analysis on **300K+** synthetic e-commerce transactions, with an interactive dashboard.
+> Segments customers into actionable tiers and tracks retention across cohorts.
 
 ---
 
 ### 🛠 What I work with
 
-**Analysis:** SQL · Python · window functions · cohort & risk-tier analysis · Excel
+**Languages & DB:** SQL (PostgreSQL, DuckDB) · Python (pandas, NumPy, scikit-learn)
+**Analytics:** EDA · window functions · cohort & RFM segmentation · risk-tier & driver analysis · logistic regression
+**BI & Viz:** Power BI (DAX) · Tableau · Excel · matplotlib
 **Engineering:** reproducible data pipelines · automated test harnesses · CI/CD with GitHub Actions · Git
-**Visualization:** matplotlib · clear, decision-oriented reporting · 
 
 ---
 

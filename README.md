@@ -5,9 +5,13 @@
 **Data Analyst** — I turn messy operational data into decisions teams can act on. I work mostly in **SQL and Python**, with a focus on **healthcare and clinical analytics**.
 
 🎓 M.S. Data Science & Engineering, Florida Atlantic University · Delray Beach, FL
+
 🔎 Open to Data Analyst / Analytics Engineer roles.
+
 🛠️ Focused on learning and improving
+
 📊 Turning data into decisions 
+
 👾 I speak SQL, Python, Excel and Power BI
 
 
